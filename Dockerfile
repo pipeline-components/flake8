@@ -5,7 +5,6 @@ COPY --from=entrypoint /entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
 ENV DEFAULTCMD flake8
 
-
 WORKDIR /app/
 
 # Generic
