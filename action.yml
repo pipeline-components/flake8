@@ -1,0 +1,23 @@
+---
+name: "flake8"
+description: "flake8 by Pipeline Components"
+author: "Robbert Müller <spam.me@grols.ch>"
+branding:
+  icon: "flag"
+  color: "green"
+inputs:
+  directory:
+    description: "Directory to lint"
+    required: false
+    default: .
+  options:
+    description: "Additional options"
+    required: false
+    default: "--verbose"
+runs:
+  using: "docker"
+  image: docker://pipelinecomponents/flake8
+  args:
+    - flake8
+    - "${{ inputs.options }}"
+    - "${{ inputs.directory }}"
