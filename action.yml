@@ -1,5 +1,5 @@
 ---
-name: "flake8"
+name: "pipeline-components-flake8"
 description: "flake8 by Pipeline Components"
 author: "Robbert Müller <spam.me@grols.ch>"
 branding:
