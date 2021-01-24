@@ -20,7 +20,7 @@ ARG BUILD_REF
 
 # Labels
 LABEL \
-    maintainer="Robbert Müller <spam.me@grols.ch>" \
+    maintainer="Robbert Müller <dev@pipeline-components.dev>" \
     org.label-schema.description="Flake8 in a container for gitlab-ci" \
     org.label-schema.build-date=${BUILD_DATE} \
     org.label-schema.name="Flake8" \
