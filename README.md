@@ -21,7 +21,7 @@ The image is for running flake8, The image is based on python:3.7-alpine3.8
 ```yaml
 flake8:
   stage: linting
-  image: pipelinecomponents/flake8:latest
+  image: registry.gitlab.com/pipeline-components/flake8:latest
   script:
     - flake8 --verbose .
 ```
