@@ -1,5 +1,13 @@
 {
   "extends": [
     "gitlab>pipeline-components/org/config"
+  ],
+  "packageRules": [
+    {
+      "matchPackagePatterns": [
+        "flake8",
+        "pycodestyle"
+      ]
+    }
   ]
 }
