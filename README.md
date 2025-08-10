@@ -13,7 +13,7 @@
 
 ## Usage
 
-The image is for running flake8, The image is based on python:3.7-alpine3.8
+The image is for running flake8.
 
 ## Examples
 
