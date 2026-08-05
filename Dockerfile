@@ -1,6 +1,6 @@
 FROM pipelinecomponents/base-entrypoint:0.5.0 as entrypoint
 
-FROM python:3.14.6-alpine3.24
+FROM python:3.14.7-alpine3.24
 COPY --from=entrypoint /entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
 ENV DEFAULTCMD flake8
